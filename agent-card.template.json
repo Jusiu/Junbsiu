@@ -1,0 +1,16 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Acme Support Triage Agent",
+  "description": "FAQ / support triage agent for a small retail business. Classifies inbound tickets, suggests FAQ answers, and escalates sensitive cases. Identity and card hosted on T3N; triage logic is local and easy to maintain.",
+  "services": [
+    {
+      "name": "DID",
+      "endpoint": "did:t3n:REPLACE_WITH_AGENT_DID",
+      "version": "v1"
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": ["tee-attestation"]
+}

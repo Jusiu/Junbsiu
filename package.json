@@ -1,0 +1,46 @@
+{
+  "name": "t3n-vendor-pay-approver",
+  "version": "0.1.0",
+  "description": "T3N support triage / enterprise ops agent for Superteam T3N Agent Build Challenge",
+  "scripts": {
+    "offline:triage": "node scripts/offline-triage.mjs",
+    "quickstart": "tsx src/quickstart.ts",
+    "agent:auth": "tsx src/agent-auth.ts",
+    "agent:triage": "tsx src/triage-agent.ts",
+    "typecheck": "tsc --noEmit",
+    "register:agent": "bash scripts/register-agent.sh"
+  },
+  "keywords": [
+    "t3n",
+    "terminal3",
+    "agent",
+    "adk",
+    "support",
+    "faq",
+    "triage"
+  ],
+  "author": "Jusiu",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@terminal3/t3n-sdk": "^5.2.0",
+    "tsx": "^4.23.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^7.0.2"
+  },
+  "files": [
+    "src",
+    "data",
+    "scripts",
+    "README.md",
+    "AGENTS.md",
+    ".cursorrules",
+    "agent-card.template.json",
+    ".env.example"
+  ]
+}

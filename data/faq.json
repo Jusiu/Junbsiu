@@ -1,0 +1,42 @@
+{
+  "business": "Acme Retail Co.",
+  "categories": [
+    {
+      "id": "orders",
+      "label": "Orders & shipping",
+      "keywords": ["order", "shipping", "track", "delivery", "package", "tracking", "late"],
+      "priority": "normal",
+      "answer": "You can track orders with the link in your confirmation email. Standard shipping is 3–5 business days. If a package is more than 2 days late, reply with your order ID and we will escalate to fulfillment."
+    },
+    {
+      "id": "returns",
+      "label": "Returns & refunds",
+      "keywords": ["return", "refund", "exchange", "warranty", "damaged"],
+      "priority": "normal",
+      "answer": "Returns are accepted within 30 days of delivery for unused items in original packaging. Start a return from your account → Orders → Return. Refunds post within 5–7 business days after we receive the item."
+    },
+    {
+      "id": "billing",
+      "label": "Billing & payments",
+      "keywords": ["billing", "invoice", "charge", "payment", "card", "receipt", "subscription"],
+      "priority": "high",
+      "answer": "For invoice or unexpected-charge questions, include the last four digits of the card and the charge date. Do not send full card numbers in chat. A human billing specialist will confirm next steps."
+    },
+    {
+      "id": "account",
+      "label": "Account & access",
+      "keywords": ["password", "login", "account", "email", "reset", "2fa", "locked"],
+      "priority": "normal",
+      "answer": "Use Forgot password on the sign-in page. If you are locked out after 2FA, contact support with the email on the account — we never ask for your password or 2FA codes."
+    },
+    {
+      "id": "product",
+      "label": "Product help",
+      "keywords": ["how to", "feature", "setup", "install", "manual", "compatible", "specs"],
+      "priority": "low",
+      "answer": "Product guides live at help.example.com. Tell us which SKU or product name you have and what you are trying to do; we will point you to the right article."
+    }
+  ],
+  "escalate_keywords": ["lawyer", "lawsuit", "chargeback", "fraud", "hacked", "urgent", "ceo", "gdpr", "delete my data"],
+  "escalate_message": "This looks sensitive or high-risk. Routing to a human agent. Please avoid sharing passwords, full card numbers, or government IDs in this chat."
+}
