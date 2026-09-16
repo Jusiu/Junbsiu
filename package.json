@@ -1,5 +1,5 @@
 {
-  "name": "t3n-vendor-pay-approver",
+  "name": "t3n-support-triage-agent",
   "version": "0.1.0",
   "description": "T3N support triage / enterprise ops agent for Superteam T3N Agent Build Challenge",
   "scripts": {
@@ -42,5 +42,9 @@
     ".cursorrules",
     "agent-card.template.json",
     ".env.example"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jusiu/Junbsiu.git"
+  }
 }
